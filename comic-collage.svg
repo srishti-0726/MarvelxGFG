@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 580" role="img" aria-labelledby="title description">
+  <title id="title">Unlock your origin</title>
+  <desc id="description">Comic-book panels featuring Spider-Man, Iron Man, Hulk, Thor, and Captain America fill the lettering.</desc>
+  <defs>
+    <clipPath id="letter-shape">
+      <text x="800" y="245" text-anchor="middle" font-family="Impact, Haettenschweiler, sans-serif" font-size="270" font-weight="900" letter-spacing="-7">UNLOCK</text>
+      <text x="800" y="520" text-anchor="middle" font-family="Impact, Haettenschweiler, sans-serif" font-size="225" font-weight="900" letter-spacing="-5">YOUR ORIGIN.</text>
+    </clipPath>
+    <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.7" fill="#050505" fill-opacity=".65"/>
+      <circle cx="9" cy="9" r="1.7" fill="#050505" fill-opacity=".45"/>
+    </pattern>
+    <linearGradient id="panel-red" x2="1" y2="1"><stop stop-color="#fb493f"/><stop offset="1" stop-color="#a81428"/></linearGradient>
+    <linearGradient id="panel-blue" x2="0" y2="1"><stop stop-color="#28c8f0"/><stop offset="1" stop-color="#07539c"/></linearGradient>
+    <linearGradient id="panel-gold" x2="0" y2="1"><stop stop-color="#fff34c"/><stop offset="1" stop-color="#f29a16"/></linearGradient>
+  </defs>
+
+  <g fill="none" stroke="#050505" stroke-linecap="round" stroke-linejoin="round">
+    <text x="800" y="245" text-anchor="middle" font-family="Impact, Haettenschweiler, sans-serif" font-size="270" font-weight="900" letter-spacing="-7" fill="#050505" stroke="#050505" stroke-width="42">UNLOCK</text>
+    <text x="800" y="520" text-anchor="middle" font-family="Impact, Haettenschweiler, sans-serif" font-size="225" font-weight="900" letter-spacing="-5" fill="#050505" stroke="#050505" stroke-width="42">YOUR ORIGIN.</text>
+  </g>
+  <g clip-path="url(#letter-shape)">
+    <rect width="400" height="580" fill="url(#panel-red)"/>
+    <rect x="400" width="400" height="580" fill="url(#panel-blue)"/>
+    <rect x="800" width="400" height="580" fill="url(#panel-gold)"/>
+    <rect x="1200" width="400" height="580" fill="#168b4a"/>
+    <path d="M400 0v580M800 0v580M1200 0v580" stroke="#050505" stroke-width="14"/>
+    <path d="M0 290h1600" stroke="#050505" stroke-width="12"/>
+
+    <g fill="none" stroke="#fff" stroke-opacity=".82" stroke-width="5">
+      <path d="M70 0L200 290 20 580M200 0L200 290 370 580M330 0L200 290 70 580M0 130l200 160 200-160M0 450l200-160 200 160"/>
+      <circle cx="200" cy="290" r="95"/><circle cx="200" cy="290" r="165"/>
+    </g>
+    <g fill="#fffdf7" stroke="#101010" stroke-width="6" stroke-linejoin="round">
+      <path d="M145 128l55-20 55 20 30 56-34 25-18-26-19 27-19-27-18 26-34-25z" fill="url(#panel-red)"/>
+      <path d="M153 157l40-13 10 20-31 16zM247 157l-40-13-10 20 31 16z" fill="#fff"/>
+    </g>
+    <g fill="none" stroke="#101010" stroke-width="3" opacity=".95">
+      <path d="M200 108v102M145 128l110 81M255 128l-110 81M141 158h118M155 184h90M178 113l22 53 31-53M164 194l36-28 36 28"/>
+    </g>
+
+    <g fill="#b31d29" stroke="#171717" stroke-width="9" stroke-linejoin="round">
+      <path d="M470 90l60-38 84 24 36 66-37 63-45-20-27 37-33-35-47 16-35-55z"/>
+      <path d="M455 225l65-40 80 8 54 57-16 77-71 19-52-37-53 20-35-44z"/>
+    </g>
+    <circle cx="600" cy="290" r="40" fill="#ffe550" stroke="#fff" stroke-width="10"/>
+    <circle cx="600" cy="290" r="15" fill="#fff"/>
+    <path d="M494 106l32-46 46-4 46 24 21 54-29 60-28 20-15-28-24 1-17 28-28-27-20-48z" fill="#d32131" stroke="#111" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M524 113l27-20 20 14-8 53-27 18-23-25zM602 107l21-14 27 20 11 39-24 26-27-18z" fill="#d6b45a" stroke="#111" stroke-width="7"/>
+    <path d="M543 139l24 5M604 144l25-5" stroke="#b9f6ff" stroke-width="9" stroke-linecap="round"/>
+
+    <g fill="#319448" stroke="#101010" stroke-width="10" stroke-linejoin="round">
+      <path d="M865 116l50-42 47 30 39-28 51 42 8 92-46 43-29-38-29 49-37-50-38 36-39-51z"/>
+      <path d="M838 239l57-34 49 34-14 51-50 21-43-28zM1055 236l54-36 48 36-10 56-51 18-43-31z"/>
+    </g>
+    <path d="M898 139l32-10 19 19-34 16zM1021 148l19-19 32 10-18 25z" fill="#fff" stroke="#111" stroke-width="8"/>
+    <path d="M875 174l35-23 39 13 12 36-18 22-57-5zM1032 200l13-36 39-13 35 23-11 43-57 5z" fill="#fff" stroke="#101010" stroke-width="7"/>
+    <path d="M920 225q44 28 87 0l-12 20h-64z" fill="#441519" stroke="#101010" stroke-width="7"/>
+    <path d="M927 230l16 3 13-2 14 2 16-3" fill="none" stroke="#fff" stroke-width="5"/>
+
+    <path d="M1280 58l62 135h-45l64 127 126-183h-58l38-79z" fill="#fff34c" stroke="#151515" stroke-width="12" stroke-linejoin="round"/>
+    <path d="M1392 168l44-33 46 10 21 45-42 38-47-8z" fill="#7c4a25" stroke="#111" stroke-width="9"/>
+    <path d="M1420 192l39-17 18 15-29 22z" fill="#ddd" stroke="#111" stroke-width="6"/>
+    <path d="M1401 151l24-34 16 20 18-26 24 36-21 11-18-12-23 15z" fill="#c6c6c6" stroke="#111" stroke-width="7" stroke-linejoin="round"/>
+
+    <g transform="translate(1430 310)">
+      <circle r="94" fill="#e62429" stroke="#fff" stroke-width="8"/>
+      <circle r="66" fill="#fff"/><circle r="40" fill="#1261b5"/>
+      <path d="M0-33l10 23 25 2-19 16 6 25L0 20l-22 13 6-25-19-16 25-2z" fill="#fff"/>
+    </g>
+
+    <g stroke="#101010" stroke-width="12" stroke-linejoin="round">
+      <path d="M96 195Q105 51 200 40q97 15 104 155l-29 76-75 28-75-28z" fill="url(#panel-red)"/>
+      <path d="M115 150q34-24 70-4l-16 39q-35 5-54-13zM285 150q-34-24-70-4l16 39q35 5 54-13z" fill="#fffdf7"/>
+      <path d="M56 580q5-219 144-261 139 42 144 261" fill="#d51e2b"/>
+      <path d="M198 320l2 260M62 417l137 55 139-55M83 354l116 118 100-118M78 512l121-40 125 40" fill="none" stroke="#111" stroke-width="7"/>
+
+      <path d="M485 154l21-98 94-36 94 36 21 98-32 98-83 45-83-45z" fill="#b91c2b"/>
+      <path d="M520 105l80-49 80 49-15 115-65 45-65-45z" fill="#d5ae54"/>
+      <path d="M529 139l44-10 15 19-46 12zM631 148l15-19 44 10-13 21z" fill="#a9f3ff"/>
+      <path d="M445 580l21-237 134-59 134 59 21 237" fill="#a8192a"/>
+      <path d="M600 333l-42 42 42 63 42-63z" fill="#ffe64a" stroke-width="10"/>
+      <circle cx="600" cy="375" r="20" fill="#fff" stroke-width="7"/>
+      <path d="M479 395l91 34M721 395l-91 34M480 482l100 21M720 482l-100 21" fill="none" stroke="#e6c66f" stroke-width="12"/>
+
+      <path d="M850 193q4-154 150-166 145 13 150 166l-37 81-112 36-113-36z" fill="#329747"/>
+      <path d="M852 113l38-82 50 48 33-68 41 67 52-46 37 81-35 26-78-17-83 18z" fill="#263324"/>
+      <path d="M880 151l60-22 34 21-28 34-58-3zM1080 150l34-21 60 22-8 30-58 3z" fill="#fff"/>
+      <path d="M870 580q13-220 130-264 116 44 130 264" fill="#329747"/>
+      <path d="M936 222q64 30 128 0l-13 39-50 23-51-23z" fill="#441519"/>
+      <path d="M941 231l25 6 18-4 18 4 23-6" fill="none" stroke="#fff" stroke-width="8"/>
+      <path d="M915 389l85 43 82-43M921 485l79-38 82 38" fill="none" stroke="#111" stroke-width="9"/>
+
+      <path d="M1270 156l30-118 100-29 100 29 30 118-35 96-95 49-95-49z" fill="#7d4c34"/>
+      <path d="M1250 85l51-72 51 37 48-45 45 45 50-37 53 72-48 26-48-29-49 28-53-28-50 29z" fill="#d7d8df"/>
+      <path d="M1300 139l55-16 25 24-26 27-51-3zM1420 147l25-24 55 16-3 32-51 3z" fill="#fff"/>
+      <path d="M1280 580q15-215 120-268 105 53 120 268" fill="#152f71"/>
+      <path d="M1330 215q70 44 140 0l-16 59-54 39-54-39z" fill="#7d4c34"/>
+      <path d="M1305 405l95 53 95-53M1314 492l86-34 86 34" fill="none" stroke="#d7d8df" stroke-width="13"/>
+      <path d="M1535 245l-35 72 47 21-55 74 31-78-45-17z" fill="#fff34c" stroke-width="7"/>
+    </g>
+    <g fill="none" stroke="#101010" stroke-width="4" opacity=".9">
+      <path d="M200 43v229M97 194l207 0M106 115l188 146M294 115L106 261M125 77l75 117 73-117M1282 194l117 80 117-80M1298 113l101 161 101-161M1325 63l74 211 73-211"/>
+    </g>
+    <rect width="1600" height="580" fill="url(#dots)"/>
+  </g>
+</svg>

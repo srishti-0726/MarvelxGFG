@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10110e">
+  <meta name="description" content="Explore the Marvel × GFG event lineup: a hack sprint, multiverse quiz, and creative arena.">
+  <title>Events | Marvel × GFG</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Marvel times GFG home"><span class="brand-mark">M<span>×</span>G</span><span class="brand-caption">BENNETT UNIVERSITY<br>STUDENT CHAPTER</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="nav-link" href="index.html">Overview <span>01</span></a>
+      <a class="nav-link" href="hero.html">The experience <span>02</span></a>
+      <a class="nav-link active" href="events.html">Events <span>03</span></a>
+      <a class="nav-cta" href="register.html">Get your pass <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main class="events-main section-shell">
+    <section class="events-heading reveal"><div class="section-index">03 <span>/</span> EVENT FILES</div><div><p class="eyebrow">CHOOSE YOUR CHALLENGE</p><h1>THREE WAYS<br>TO <span>ASSEMBLE.</span></h1></div><p class="events-intro">Bring your best ideas, your sharpest thinking, and at least one friend. The rest is up to you.</p></section>
+    <section class="event-controls" aria-label="Filter events">
+      <span class="filter-label">FILTER BY</span>
+      <div class="filter-tabs" role="group" aria-label="Event categories">
+        <button class="filter-button active" data-filter="all" aria-pressed="true">All events <span>03</span></button>
+        <button class="filter-button" data-filter="build" aria-pressed="false">Build <span>01</span></button>
+        <button class="filter-button" data-filter="play" aria-pressed="false">Play <span>01</span></button>
+        <button class="filter-button" data-filter="create" aria-pressed="false">Create <span>01</span></button>
+      </div>
+    </section>
+    <section class="event-list" aria-live="polite">
+      <article class="event-row reveal" data-category="build"><div class="event-number">01</div><div class="event-main"><div class="event-tags"><span>BUILD</span><span>TEAM EVENT</span></div><h2>THE INFINITY HACK</h2><p>Build a working prototype under pressure. Your tools: code, collaboration, and a bold idea worth shipping.</p></div><div class="event-details"><span>09:30 — 13:00</span><span>TEAMS OF 2–4</span><span>ALL LEVELS</span></div><a class="event-arrow" href="register.html" aria-label="Register for The Infinity Hack">↗</a></article>
+      <article class="event-row reveal" data-category="play"><div class="event-number">02</div><div class="event-main"><div class="event-tags"><span>PLAY</span><span>SOLO OR DUO</span></div><h2>THE MULTIVERSE QUIZ</h2><p>Pop culture meets tech trivia. Quick rounds, unexpected questions, and bragging rights across every universe.</p></div><div class="event-details"><span>13:30 — 14:30</span><span>1–2 PLAYERS</span><span>ALL LEVELS</span></div><a class="event-arrow" href="register.html" aria-label="Register for The Multiverse Quiz">↗</a></article>
+      <article class="event-row reveal" data-category="create"><div class="event-number">03</div><div class="event-main"><div class="event-tags"><span>CREATE</span><span>OPEN ENTRY</span></div><h2>HERO MODE: DESIGN</h2><p>Invent a new hero, power, or world. Turn a wild prompt into a visual concept that could belong on the big screen.</p></div><div class="event-details"><span>14:45 — 16:15</span><span>SOLO OR DUO</span><span>ALL LEVELS</span></div><a class="event-arrow" href="register.html" aria-label="Register for Hero Mode: Design">↗</a></article>
+      <div class="empty-events" hidden>No events match this filter.</div>
+    </section>
+    <section class="events-footer reveal"><span>ONE DAY · THREE CHALLENGES · YOUR CALL</span><a class="button button-lime" href="register.html">Lock in your spot <span>↗</span></a></section>
+    <p class="schedule-note">Schedule and event details are a sample and can be updated by the chapter organizers.</p>
+  </main>
+  <footer class="site-footer"><span>© 2026 GFG STUDENT CHAPTER · BENNETT UNIVERSITY</span><span>MADE FOR THE CURIOUS <b>✳</b></span><a href="register.html">ASSEMBLE HERE ↗</a></footer>
+</body>
+</html>

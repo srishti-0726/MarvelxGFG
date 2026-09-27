@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10110e">
+  <meta name="description" content="Register for the Marvel × GFG campus event at Bennett University.">
+  <title>Get Your Pass | Marvel × GFG</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Marvel times GFG home"><span class="brand-mark">M<span>×</span>G</span><span class="brand-caption">BENNETT UNIVERSITY<br>STUDENT CHAPTER</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="nav-link" href="index.html">Overview <span>01</span></a>
+      <a class="nav-link" href="hero.html">The experience <span>02</span></a>
+      <a class="nav-link" href="events.html">Events <span>03</span></a>
+      <a class="nav-cta active" href="register.html">Get your pass <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main class="register-main section-shell">
+    <section class="register-heading reveal"><div class="section-index">04 <span>/</span> YOUR NEXT MOVE</div><p class="eyebrow"><span class="live-dot"></span> YOUR ORIGIN STORY STARTS HERE</p><h1>THE NEXT<br><span>HERO IS YOU.</span></h1><p>Save your place in the lineup. Pick your challenge and bring your crew.</p></section>
+    <section class="registration-layout">
+      <div class="registration-aside reveal"><div class="pass-art"><span>MARVEL × GFG</span><strong>ALL<br>ACCESS</strong><i>BU / 2026</i><div class="pass-code">M G · 00 01 · BU</div></div><div class="aside-facts"><div><span>WHEN</span><strong>12 OCT 2026 · 09:00</strong></div><div><span>WHERE</span><strong>BENNETT UNIVERSITY</strong></div><div><span>ENTRY</span><strong>FREE · REGISTRATION REQUIRED</strong></div></div></div>
+      <form class="registration-form reveal" id="registration-form">
+        <p class="eyebrow">01 — PLAYER DETAILS</p>
+        <div class="form-grid"><label>Full name<input name="name" autocomplete="name" placeholder="Your name" required minlength="2"></label><label>College email<input name="email" type="email" autocomplete="email" placeholder="you@college.edu" required></label><label>Course / year<input name="course" placeholder="e.g. B.Tech · 2nd year" required></label><label>Phone number<input name="phone" type="tel" autocomplete="tel" inputmode="tel" pattern="[0-9+\s\(\)\-]{8,18}" placeholder="+91 00000 00000" required></label></div>
+        <fieldset class="event-choice"><legend>02 — PICK YOUR CHALLENGE</legend><label class="choice-row"><input type="checkbox" name="events" value="The Infinity Hack"><span class="choice-box"></span><span><strong>The Infinity Hack</strong><small>Build · Teams of 2–4</small></span><span class="choice-number">01</span></label><label class="choice-row"><input type="checkbox" name="events" value="The Multiverse Quiz"><span class="choice-box"></span><span><strong>The Multiverse Quiz</strong><small>Play · Solo or duo</small></span><span class="choice-number">02</span></label><label class="choice-row"><input type="checkbox" name="events" value="Hero Mode: Design"><span class="choice-box"></span><span><strong>Hero Mode: Design</strong><small>Create · Solo or duo</small></span><span class="choice-number">03</span></label></fieldset>
+        <label class="consent-row"><input type="checkbox" name="consent" required><span>I agree to be contacted with event updates from the GFG Student Chapter.</span></label>
+        <button class="button button-lime submit-button" type="submit">Submit registration <span>↗</span></button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        <p class="form-note">This demo form does not send or store your information. Connect it to an organizer-approved registration service before launch.</p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><span>© 2026 GFG STUDENT CHAPTER · BENNETT UNIVERSITY</span><span>MADE FOR THE CURIOUS <b>✳</b></span><a href="index.html">BACK TO THE TOP ↑</a></footer>
+</body>
+</html>
